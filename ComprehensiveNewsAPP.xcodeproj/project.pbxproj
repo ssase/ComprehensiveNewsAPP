@@ -27,6 +27,7 @@
 		58ABD6761E879D7F00E4CAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58ABD6791E879D7F00E4CAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58ABD67B1E879D7F00E4CAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58ABD6811E87D9DA00E4CAE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A65EA2CD78651250EFCC7630 /* Pods-ComprehensiveNewsAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComprehensiveNewsAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComprehensiveNewsAPP/Pods-ComprehensiveNewsAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		B10BEB7A5BFB3228A2BCC2E2 /* Pods-ComprehensiveNewsAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComprehensiveNewsAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComprehensiveNewsAPP/Pods-ComprehensiveNewsAPP.release.xcconfig"; sourceTree = "<group>"; };
 		B225708DEBB207D601085125 /* libPods-ComprehensiveNewsAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ComprehensiveNewsAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +66,7 @@
 		58ABD6691E879D7F00E4CAE9 /* ComprehensiveNewsAPP */ = {
 			isa = PBXGroup;
 			children = (
+				58ABD6811E87D9DA00E4CAE9 /* PrefixHeader.pch */,
 				58ABD66D1E879D7F00E4CAE9 /* AppDelegate.h */,
 				58ABD66E1E879D7F00E4CAE9 /* AppDelegate.m */,
 				58ABD6701E879D7F00E4CAE9 /* ViewController.h */,
@@ -389,6 +391,7 @@
 				58ABD6801E879D7F00E4CAE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
